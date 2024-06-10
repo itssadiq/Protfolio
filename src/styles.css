@@ -1,0 +1,78 @@
+
+body {
+  background-color: #212529;
+  color: white;
+}
+
+.offcanvas-custom {
+  max-width: 50%; /* Adjust this value as needed */
+}
+
+.d-shape-image {
+  width: 300px;
+  height: 300px;
+  border-top-right-radius: 150px;
+  border-bottom-right-radius: 150px;
+  overflow: hidden;
+  float: left;
+  margin-right: 20px; /* Space between image and text */
+}
+.d-shape-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.navbar-toggler-icon {
+  width: 24px;
+  height: 24px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("images/arrow-left-square-fill.svg");
+}
+
+#hero-section {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#hero-image {
+  background-image: url("images/heroimage.jpg");
+  background-position: center;
+  background-size: contain;
+  width: 150px;
+  height: 200px;
+}
+
+@media screen and (min-width: 768px) {
+  #hero-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    text-align: left;
+  }
+
+  #hero-content {
+    margin-left: 10px;
+  }
+}
+
+.card:hover {
+  box-shadow: 0 4px 6px rgba(255, 255, 255, 0.6);
+}
+
+.card-title {
+  color: white;
+}
+
+.card-text {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
