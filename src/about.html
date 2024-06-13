@@ -54,10 +54,14 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Projects</a>
+                <a class="nav-link" href="projects.html" target="_blank"
+                  >Projects</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="contact.html" target="_blank"
+                  >Contact</a
+                >
               </li>
             </ul>
           </div>
@@ -68,11 +72,95 @@
     <!-- Hero Section -->
 
     <div class="container" id="hero-section">
-      <div id="hero-image"></div>
+      <div id="hero-image" class="border border-4"></div>
       <div id="hero-content">
-        <h4>Sadiq Ali</h4>
-        <h5>Software Engineer</h5>
-        <h6>sadiqalishaikh009@outlook.com</h6>
+        <h2 class="name">Sadiq Ali</h2>
+        <h5 class="title">Software Engineer</h5>
+        <h6 class="title">sadiqalishaikh009@outlook.com</h6>
+        <div class="flex justify-center md:justify-start">
+          <a
+            class=" "
+            rel="noopener noreferrer"
+            href="www.linkedin.com/in/sadiqali009"
+            target="_blank"
+            style="
+              border-color: rgb(170, 170, 170);
+              padding: 8px 8px 8px 0px;
+              font-size: 20px;
+              display: inline;
+            "
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-linkedin"
+            >
+              <path
+                d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+              ></path>
+              <rect width="4" height="12" x="2" y="9"></rect>
+              <circle cx="4" cy="4" r="2"></circle></svg></a
+          ><a
+            class=" "
+            rel="noopener noreferrer"
+            href="#"
+            target="_blank"
+            style="
+              border-color: rgb(170, 170, 170);
+              padding: 8px;
+              font-size: 20px;
+              display: inline;
+            "
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-twitter"
+            >
+              <path
+                d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"
+              ></path></svg></a
+          ><a
+            class=" "
+            rel="noopener noreferrer"
+            href="https://github.com/itssadiq"
+            target="_blank"
+            style="
+              border-color: rgb(170, 170, 170);
+              padding: 8px;
+              font-size: 20px;
+              display: inline;
+            "
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-github"
+            >
+              <path
+                d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"
+              ></path>
+              <path d="M9 18c-4.51 2-5-2-7-2"></path></svg
+          ></a>
+        </div>
       </div>
     </div>
 
@@ -83,14 +171,16 @@
         <div class="col-1">
           <img src="images/about icon.svg" alt="" width="20px" />
         </div>
-        <div class="col-11">About Me</div>
+        <div class="col-11"><h4>About Me</h4></div>
         <div class="col-10 offset-1">
-          I am currently learning to code and this is my first personal website
-          which is responsive and is also a test of skills aswell.
-          <br />
-          <br />
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
-          laboriosam illo consequuntur.
+          <p class="description">
+            I am currently learning to code and this is my first personal
+            website which is responsive and is also a test of skills aswell.
+            <br />
+            <br />
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+            laboriosam illo consequuntur.
+          </p>
         </div>
       </div>
     </div>
@@ -102,10 +192,14 @@
         <div class="col-1">
           <img src="images/experience icon.svg" alt="" width="20px" />
         </div>
-        <div class="col-11">Work Experience</div>
-        <div class="col-10 offset-1 col-md-5">Software Engineer</div>
-        <div class="col-10 offset-1 col-md-5">May 2024 - Present</div>
-        <div class="col-10 offset-1">Freelance</div>
+        <div class="col-11"><h4>Work Experience</h4></div>
+        <div class="col-10 offset-1 col-md-5 description">
+          Software Engineer
+        </div>
+        <div class="col-10 offset-1 col-md-5 description project-description">
+          May 2024 - Present
+        </div>
+        <div class="col-10 offset-1 description">Freelance</div>
       </div>
     </div>
 
@@ -116,18 +210,30 @@
         <div class="col-1">
           <img src="images/education icon.svg" alt="" width="20px" />
         </div>
-        <div class="col-11">Education</div>
-        <div class="col-10 offset-1 col-md-5">Intermediate - Business</div>
-        <div class="col-10 offset-1 col-md-5">August 2014 - July 2016</div>
-        <div class="col-10 offset-1 mb-3">Govt. Commerce College</div>
+        <div class="col-11"><h4>Education</h4></div>
+        <div class="col-10 offset-1 col-md-5 description">
+          Intermediate - Business
+        </div>
+        <div class="col-10 offset-1 col-md-5 project-description description">
+          August 2014 - July 2016
+        </div>
+        <div class="col-10 offset-1 mb-3 description">
+          Govt. Commerce College
+        </div>
 
-        <div class="col-10 offset-1 col-md-5">BBA - Supply Chain</div>
-        <div class="col-10 offset-1 col-md-5">September 2016 - Feb 2019</div>
-        <div class="col-10 offset-1 mb-3">SMIU</div>
+        <div class="col-10 offset-1 col-md-5 description">
+          BBA - Supply Chain
+        </div>
+        <div class="col-10 offset-1 col-md-5 description project-description">
+          September 2016 - Feb 2019
+        </div>
+        <div class="col-10 offset-1 mb-3 description">SMIU</div>
 
-        <div class="col-10 offset-1 col-md-5">ADC - Business</div>
-        <div class="col-10 offset-1 col-md-5">January 2024 - Continue</div>
-        <div class="col-10 offset-1">KU</div>
+        <div class="col-10 offset-1 col-md-5 description">ADC - Business</div>
+        <div class="col-10 offset-1 col-md-5 description project-description">
+          January 2024 - Continue
+        </div>
+        <div class="col-10 offset-1 description">KU</div>
       </div>
     </div>
 
@@ -138,38 +244,48 @@
         <div class="col-1">
           <img src="images/projects icon.svg" alt="" width="20px" />
         </div>
-        <div class="col-11">Projects</div>
-        <div class="col-10 offset-1">Google Clone</div>
+        <div class="col-11 mb-3"><h4>Projects</h4></div>
+        <div class="col-10 offset-1"><h5>Google Clone</h5></div>
         <div class="col-10 offset-1 mb-3">
-          Built using HTML and CSS only to to practice basic skills.
+          <p class="project-description description">
+            Built using HTML and CSS only to to practice basic skills.
+          </p>
         </div>
 
-        <div class="col-10 offset-1">Space Exploration Site</div>
+        <div class="col-10 offset-1"><h5>Space Exploration Site</h5></div>
         <div class="col-10 offset-1 mb-3">
-          This project is also built using HTML and CSS only in which I also
-          learned about transparent form and a little about animated
-          backgrounds.
+          <p class="project-description description">
+            This project is also built using HTML and CSS only in which I also
+            learned about transparent form and a little about animated
+            backgrounds.
+          </p>
         </div>
 
-        <div class="col-10 offset-1">Hometown Website</div>
+        <div class="col-10 offset-1"><h5>Hometown Website</h5></div>
         <div class="col-10 offset-1 mb-3">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id at eaque
-          necessitatibus illo dolorum deleniti ratione officiis animi dicta
-          dolore.
+          <p class="project-description description">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id at
+            eaque necessitatibus illo dolorum deleniti ratione officiis animi
+            dicta dolore.
+          </p>
         </div>
 
-        <div class="col-10 offset-1">Birthday Gift Site</div>
+        <div class="col-10 offset-1"><h5>Birthday Gift Site</h5></div>
         <div class="col-10 offset-1 mb-3">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi quidem
-          consequuntur fugit ullam praesentium pariatur repellat minima ea animi
-          nemo.
+          <p class="project-description description">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi
+            quidem consequuntur fugit ullam praesentium pariatur repellat minima
+            ea animi nemo.
+          </p>
         </div>
 
-        <div class="col-10 offset-1">Jovian Web</div>
+        <div class="col-10 offset-1"><h5>Jovian Web</h5></div>
         <div class="col-10 offset-1 mb-3">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi quidem
-          consequuntur fugit ullam praesentium pariatur repellat minima ea animi
-          nemo.
+          <p class="project-description description">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi
+            quidem consequuntur fugit ullam praesentium pariatur repellat minima
+            ea animi nemo.
+          </p>
         </div>
       </div>
     </div>
@@ -181,7 +297,7 @@
     ></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
-      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      intebgrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
       crossorigin="anonymous"
     ></script>
   </body>
